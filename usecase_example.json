@@ -1,0 +1,79 @@
+{
+    "mycase": {
+      "id": "1",
+      "casename": "case1: IPv6 over Pseudowire (AToM)",
+      "router": [
+        {
+          "id": "P",
+          "command": [
+            {
+              "cmdname": "sh ip ospf database",
+              "cmdfile": "C0_TR0_IT1_P_sh_ip_ospf_database"
+            },
+            {
+              "cmdname": "sh ip ospf ne",
+              "cmdfile": "C0_TR0_IT1_P_sh_ip_ospf_ne"
+            },
+            {
+              "cmdname": "sh ip ospf inter",
+              "cmdfile": "C0_TR0_IT1_P_sh_ip_ospf_inter"
+            },
+            {
+              "cmdname": "sh ip ospf border-routers",
+              "cmdfile": "C0_TR0_IT1_P_sh_ip_ospf_border-routers"
+            }
+          ]
+        },
+        {
+          "id": "PE2",
+          "command": [
+            {
+              "cmdname": "sh mpls l2transport vc 242 detail",
+              "cmdfile": "C0_TR0_IT1_PE2_sh_mpls_l2transport_vc_242_detail"
+            },
+            {
+              "cmdname": "sh mpls l2transport vc 241 detail",
+              "cmdfile": "C0_TR0_IT1_PE2_sh_mpls_l2transport_vc_241_detail"
+            },
+            {
+              "cmdname": "sh mpls l2transport vc 24 detail",
+              "cmdfile": "C0_TR0_IT1_PE2_sh_mpls_l2transport_vc_24_detail"
+            },
+            {
+              "cmdname": "sh mpls l2transport vc 242",
+              "cmdfile": "C0_TR0_IT1_PE2_sh_mpls_l2transport_vc_242"
+            }
+          ]
+        },
+        {
+          "id": "PE1",
+          "command": [
+            {
+              "cmdname": "sh mpls l2transport vc 242 detail",
+              "cmdfile": "C0_TR0_IT1_PE1_sh_mpls_l2transport_vc_242_detail"
+            },
+            {
+              "cmdname": "sh mpls l2transport vc 241 detail",
+              "cmdfile": "C0_TR0_IT1_PE1_sh_mpls_l2transport_vc_241_detail"
+            },
+            {
+              "cmdname": "sh mpls l2transport vc 24 detail",
+              "cmdfile": "C0_TR0_IT1_PE1_sh_mpls_l2transport_vc_24_detail"
+            },
+            {
+              "cmdname": "sh mpls l2transport vc 242",
+              "cmdfile": "C0_TR0_IT1_PE1_sh_mpls_l2transport_vc_242"
+            },
+            {
+              "cmdname": "sh tech-support",
+              "cmdfile": "C0_TR0_IT1_PE1_sh_tech-support"
+            },
+            {
+              "cmdname": "sh arp",
+              "cmdfile": "C0_TR0_IT1_PE1_sh_arp"
+            }
+          ]
+        }
+      ]
+    }
+  }
