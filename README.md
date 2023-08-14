@@ -21,8 +21,9 @@ Si on clique sur un lien, un menu contextuel s'ouvre pour montrer les actions po
 ![link_action](Snag_1083179e.png)
 
 - link failure > fait afficher un feu sur le lien
-- link repair > fait "répparer" le lien (remet à l'état initiale)
+- link repair > fait "réparer" le lien (remet à l'état initiale)
 
+![link_failure](Snag_10b7ea72.png)
 
 #### Cliquer sur un équipement
 
