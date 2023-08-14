@@ -8,6 +8,11 @@ Il n'y aura pas de challenge pour l'utilisateur, si "exit" est appuyé, le "jeux
 Un trafic qui représente des données circulent à travers ces tubes. Ce trafic pourrait être représenté par une animation d'objets (ou particules) qui bougent d'un équipement vers un autre.
 L'animation sera déclanché en appuyant sur un boutont "traffic animation"
 
+Voici un exemple d'un projet flash animation:
+![packet_animation](traffic.gif)
+
+
+
 L'utilisateur devrait être capable de changer la vu comme sur Unity/Blender, mais avec des limites de mouvement de la caméra, comme le montre l'animation ci-dessous:
 
 
